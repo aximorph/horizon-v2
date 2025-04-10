@@ -2,8 +2,10 @@ name = "horizon-v2"
 account_id = "f625f828328ca581d1942e008a63dc24"
 # workers_dev = true
 
+[env.production]
+main = "./dist/_astro/elements/index.html"
+
 compatibility_date = "2025-04-10"
-main = "dist/_astro/index.html"
 type = "javascript"
 
 [assets]
