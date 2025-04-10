@@ -3,7 +3,8 @@ account_id = "f625f828328ca581d1942e008a63dc24"
 # workers_dev = true
 
 compatibility_date = "2025-04-10"
-main = "src/index.ts"
+main = "dist/_astro/index.html"
+type = "javascript"
 
 [assets]
 directory = "./dist"
