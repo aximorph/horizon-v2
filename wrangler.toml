@@ -1,15 +1,15 @@
 name = "horizon-v2"
 account_id = "f625f828328ca581d1942e008a63dc24"
-# workers_dev = true
+type = "javascript"
+
+[build]
+command = "npm run build"
+cwd = "./"
 
 [env.production]
 main = "./dist/_astro/elements/index.html"
 
-compatibility_date = "2025-04-10"
-type = "javascript"
-
 [assets]
 directory = "./dist"
 
-# [build]
-# command = "bun run build"
+compatibility_date = "2025-04-10"
