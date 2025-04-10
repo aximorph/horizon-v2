@@ -8,8 +8,8 @@ cwd = "./"
 
 [env.production]
 main = "./dist/_astro/elements/index.html"
+compatibility_date = "2025-04-10"
 
 [assets]
 directory = "./dist"
 
-compatibility_date = "2025-04-10"
